@@ -1,21 +1,77 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 美国|@ripaojiedian
-  password: Butterfly123@qwe9527
-  port: 50001
-  server: 103.236.66.4
+- cipher: aes-128-gcm
+  name: 🇺🇸[www.v2nodes.com] ss-US-1586...
+  password: 6c4993acd1ca7f12f0a18bdcb3c37c6c
+  port: 10272
+  server: 66.23.201.172
   type: ss
-- cipher: aes-256-gcm
-  name: 美国2|@ripaojiedian
-  password: Butterfly123@qwe9527
-  port: 50003
-  server: 103.236.66.4
+- cipher: aes-128-gcm
+  name: '🇺🇸[www.v2nodes.com] ss-US-1586... #1'
+  password: 1377d5cfafc9279a904deb3bfa4f3de2
+  port: 14680
+  server: 74.201.177.54
   type: ss
-- name: 美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
+- cipher: aes-128-gcm
+  name: 🇺🇸[www.v2nodes.com] ss-US-1584...
+  password: 87e9cb62706b5cd08da95b8b423cb673
+  port: 16469
+  server: 103.214.111.162
+  type: ss
+- cipher: aes-128-gcm
+  name: '🇺🇸[www.v2nodes.com] ss-US-1584... #1'
+  password: 2591a42af498878e47d881cd1ed1fa9d
+  port: 10676
+  server: 66.23.204.219
+  type: ss
+- cipher: aes-128-gcm
+  name: '🇺🇸[www.v2nodes.com] ss-US-1584... #2'
+  password: 62dd75ba944947d4ca983cf1679b3797
+  port: 15240
+  server: 173.234.25.90
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国|@ripaojiedian
+  network: ws
   port: 443
-  server: 100.42.228.109
+  server: 53vXOVarmgcreAsv.v.3dns.vip
+  servername: 53vXOVarmgcreAsv.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 53vXOVarmgcreAsv.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国2|@ripaojiedian
+  network: ws
+  port: 443
+  server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+  servername: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+    path: /ws-vmess
+- name: 美国|@ripaojiedian
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 10155
+  server: 63182sh8-4d7b.aws-agent.net
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: m.ctrip.com
+  type: trojan
+- name: 美国2|@ripaojiedian
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12122
+  server: 63182sh8-4d7b.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
   type: trojan

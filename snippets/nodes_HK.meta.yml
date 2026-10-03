@@ -1,4 +1,52 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇭🇰[www.v2nodes.com] vless-HK-1... #1'
+  network: tcp
+  port: 11907
+  server: 195.58.144.56
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 07cb07b9-0c4d-46c1-a15a-b147511b6b07
+- client-fingerprint: chrome
+  name: '🇭🇰[www.v2nodes.com] vless-HK-1... #3'
+  network: ws
+  port: 8443
+  server: 103.180.20.108
+  servername: ty986gfazs.cainiaohub.xyz
+  tls: true
+  type: vless
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  ws-opts:
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰[www.v2nodes.com] ss-HK-1585...
+  password: pno0e2keji2gsfea
+  port: 1080
+  server: telegram.khp25.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰[www.v2nodes.com] ss-HK-1576...
+  password: m5nsedvdczx6x06e
+  port: 1080
+  server: telegramx.khp25.com
+  type: ss
+- alpn:
+  - http/1.1
+  name: 🇭🇰[www.v2nodes.com] trojan-HK-...
+  network: ws
+  password: Telegram_healer_config
+  port: 443
+  server: 104.21.70.21
+  sni: bjsa2ygfitzjtho8ucze29xf2m2q9c.g3fiajpf0erm9k3x6ww-yegzl2.workers.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bjsa2ygfitzjtho8ucze29xf2m2q9c.g3fiajpf0erm9k3x6ww-yegzl2.workers.dev
+    path: /tr/J6IJuAAWkqyiEt8UkeRnVdLlkLIGukLr%3Fed%3D2560
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -8,64 +56,142 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-gcm
-  name: 香港2|@ripaojiedian
-  password: Butterfly123@qwe9527
-  port: 10001
-  server: 103.236.66.4
-  type: ss
-- cipher: aes-256-gcm
-  name: 香港3|@ripaojiedian
-  password: Butterfly123@qwe9527
-  port: 10006
-  server: 112.28.141.77
-  type: ss
-- name: 香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 2716
-  server: 43.199.146.46
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 51391
-  server: 13.215.162.132
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港3|@ripaojiedian
+  network: ws
+  port: 443
+  server: ADncdOvLHR4M1P36.v.3dns.vip
+  servername: ADncdOvLHR4M1P36.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ADncdOvLHR4M1P36.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港2|@ripaojiedian
+  network: ws
+  port: 443
+  server: kBONDXW9liFCi4h4.v.3dns.vip
+  servername: kBONDXW9liFCi4h4.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: kBONDXW9liFCi4h4.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港4|@ripaojiedian
+  network: ws
+  port: 443
+  server: aZW0eunYVdvRe73k.v.3dns.vip
+  servername: aZW0eunYVdvRe73k.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: aZW0eunYVdvRe73k.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港5|@ripaojiedian
+  network: ws
+  port: 443
+  server: syJ2gGUgMwBwQwQx.v.3dns.vip
+  servername: syJ2gGUgMwBwQwQx.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: syJ2gGUgMwBwQwQx.v.3dns.vip
+    path: /ws-vmess
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
   network: tcp
-  port: '30807'
+  port: 30807
   server: v10.hdacd.com
   servername: ''
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇭🇰HK_1|3.2MB/s
-  network: ws
-  port: '443'
-  server: www.shopify.com
-  servername: yoga-suggesting-recording-calls.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+- name: 香港2|@ripaojiedian
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12103
+  server: 7d0a2gz0-7a0c.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: 香港3|@ripaojiedian
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 10115
+  server: 7d0a2gz0-7a0c.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12107
+  server: 7d0a2gz0-7a0c.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12102
+  server: 7d0a2gz0-7a0c.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: 🇭🇰HK_1|3.8MB/s
+  password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
+  port: 56726
+  server: test01.y1static-content-distribution.shop
+  skip-cert-verify: true
+  sni: hk11.pulsarcore.site
+  type: anytls
   udp: true
-  uuid: 3aa71202-a099-49c1-99fc-6662f3335369
+- name: 🇭🇰HK_2|2.7MB/s
+  password: admin
+  port: 8899
+  server: 47.242.19.215
+  skip-cert-verify: true
+  type: socks5
+  username: admin
+- client-fingerprint: chrome
+  name: '🇭🇰 香港 | HKG #1'
+  network: ws
+  port: 443
+  server: 122.10.119.252
+  servername: cf3.schzyc.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
   ws-opts:
     headers:
-      Host: yoga-suggesting-recording-calls.trycloudflare.com
-    path: /3aa71202-a099-49c1-99fc-6662f3335369-vm
-  xudp: true
-- name: 🇭🇰HK_2|3.0MB/s
-  port: 1080
-  server: 47.76.175.249
-  type: socks5
+      Host: cf3.schzyc.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net
+- auth: 19f72087-4591-4d72-930b-2697078ec2be
+  name: '🇭🇰 香港 | HKG #2'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: hk2.xiaoliyu.cyou
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
