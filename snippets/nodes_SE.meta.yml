@@ -9,48 +9,39 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
+- client-fingerprint: random
   name: 🇸🇪[www.v2nodes.com] vless-SE-9...
   network: ws
-  port: 8443
-  server: 144.31.243.120
-  servername: edgetunnel-4uw.pages.dev
+  port: 443
+  server: 157.22.128.7
+  servername: free.cndyw.ggff.net
   tls: true
   type: vless
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
   ws-opts:
     headers:
-      Host: edgetunnel-4uw.pages.dev
-    path: /
-- name: '🇸🇪[www.v2nodes.com] vless-SE-9... #1'
+      Host: free.cndyw.ggff.net
+    path: pyip=bpb.yousef.isegaro.com
+- name: '🇸🇪[www.v2nodes.com] vless-SE-1... #1'
   network: ws
-  port: 8443
-  server: 144.31.243.120
-  servername: edgetunnel-4uw.pages.dev
-  tls: true
+  port: 14430
+  server: 193.188.21.253
+  tls: false
   type: vless
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  uuid: 57f7772d-f5d6-4d8f-992d-5fa5e0d6da55
   ws-opts:
     headers:
-      Host: edgetunnel-4uw.pages.dev
-    path: /fp=chrome
-- name: '🇸🇪[www.v2nodes.com] vless-SE-9... #2'
-  network: ws
-  port: 2083
-  server: 103.177.249.40
-  servername: qcswhj2.edge-cache.danfeng4.xyz
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: qcswhj2.edge-cache.danfeng4.xyz
-    path: /danfeng-pw8lj2-nzliwt-h23l-978coeve?ed=2560fp=chrome
-- name: 🇸🇪 瑞典 | SWE 4
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 60005
-  server: svip.skycon808.com
+      Host: 193.188.21.253
+    path: /vless
+- name: 🇸🇪SE_1|3.8MB/s
+  port: 443
+  server: 146.70.242.146
   skip-cert-verify: true
-  sni: xjp18.2uuzhe.com
-  type: anytls
+  tls: true
+  type: http
+- name: 🇸🇪SE_2|2.5MB/s
+  port: 443
+  server: 149.50.216.65
+  skip-cert-verify: true
+  tls: true
+  type: http

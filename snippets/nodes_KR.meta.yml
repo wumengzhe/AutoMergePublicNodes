@@ -1,71 +1,18 @@
 proxies:
-- name: '🇰🇷[www.v2nodes.com] vless-KR-1... #1'
+- name: 🇰🇷[www.v2nodes.com] vless-KR-1...
   network: ws
-  port: 2052
-  server: 162.159.38.127
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  port: 25555
+  server: 152.69.226.63
   tls: false
   type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
   ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- client-fingerprint: chrome
-  name: '🇰🇷[www.v2nodes.com] vless-KR-1... #2'
-  network: ws
-  port: 2087
-  server: 158.247.253.111
-  servername: shephe.dpdns.org
-  tls: true
-  type: vless
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  ws-opts:
-    headers:
-      Host: shephe.dpdns.org
     path: /
-- name: '🇰🇷[www.v2nodes.com] vless-KR-3... #5'
-  network: ws
-  port: 2087
-  server: 158.247.253.111
-  servername: shephe.dpdns.org
-  tls: true
-  type: vless
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  ws-opts:
-    headers:
-      Host: shephe.dpdns.org
-    path: /fp=chrome
-- client-fingerprint: chrome
-  name: '🏳[www.v2nodes.com] vless- #5'
-  network: ws
-  port: 443
-  server: 158.247.224.240
-  servername: cf2us.3rr0r.online
-  tls: true
-  type: vless
-  uuid: ab61daa1-b7fb-486e-8946-b1da9a444685
-  ws-opts:
-    headers:
-      Host: cf2us.3rr0r.online
-    path: /proxyip=ProxyIP.KR.CMLiussss.Net
-- name: '🇰🇷[www.v2nodes.com] vless-KR-3... #2'
-  network: ws
-  port: 2052
-  server: 162.159.39.218
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  tls: false
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
 - cipher: aes-256-gcm
-  name: 🇰🇷[www.v2nodes.com] ss-KR-1580...
-  password: ac9c0a7b
-  port: 49642
-  server: ce1fc2d8.krkt.hkssip.com
+  name: 🇰🇷[www.v2nodes.com] ss-KR-1185...
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 141.164.45.187
   type: ss
 - alterId: 0
   cipher: auto
@@ -90,3 +37,27 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- client-fingerprint: random
+  name: '🇰🇷 韩国 | KOR #1'
+  network: ws
+  port: 443
+  server: sg2-xr.zgrelay.com
+  servername: sg2-xr.zgrelay.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: E221699D-E705-4664-9162-A75A82AA3997
+  ws-opts:
+    headers:
+      Host: sg2-xr.zgrelay.com
+    path: /700gvl-kr3
+- auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  fingerprint: 89:61:86:FE:B2:0C:B7:40:31:87:A4:5F:F3:BD:5D:DC:8B:FB:DD:41:9D:77:9D:55:D7:86:18:9D:36:73:1A:69
+  name: '🇰🇷 韩国 | KOR #2'
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 443
+  server: 43.203.241.69
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
